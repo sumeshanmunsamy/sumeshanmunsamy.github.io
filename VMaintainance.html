@@ -1,0 +1,27 @@
+
+<html>
+<head>
+<center><h1>Dispatch Vehicle</h1></center>
+</head>
+<h1><title>Vehicle Maintainance</title></h1>
+<style>
+body{
+background: lightblue url("green.jpg") no-repeat fixed center; 
+}
+</style>
+<body>
+<form action ="VMaintainance.php" method="POST" target=""> 
+	   <label><b>Maintainance ID:</b></label>
+      <input type="text" placeholder="Enter Maintainance ID" name="MID"required><br><br>
+	   <label><b> Vehicle ID :</b></label>
+      <input type="text" placeholder="Enter Vehicle ID Number" name="VID"required><br><br>
+	   <label><b> Admin ID:</b></label>
+      <input type="text" placeholder="Enter Admin ID" name="AID"required><br><br>
+	   <label><b> Driver ID :</b></label>
+	    <input type="text" placeholder="Enter Driver ID" name="DID"required><br><br>
+			   <label><b> Description :</b></label>
+	    <input type="text" placeholder="Enter Maintainance Description" name="Des"required><br><br>
+	  <input type = "submit" id ="btn"value = "Add">
+	  </form>	 
+</body>
+</html>
